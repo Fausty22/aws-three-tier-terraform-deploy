@@ -1,0 +1,16 @@
+aws_region             = "us-east-1"
+project_name           = "faustina-capstone"
+environment            = "dev"
+vpc_cidr               = "10.0.0.0/16"
+public_subnet_cidrs    = ["10.0.1.0/24", "10.0.2.0/24"]
+private_subnet_cidrs   = ["10.0.3.0/24", "10.0.4.0/24"]
+availability_zones     = ["us-east-1a", "us-east-1b"]
+eks_cluster_version    = "1.28"
+eks_node_instance_type = "t3.medium"
+eks_desired_nodes      = 2
+eks_min_nodes          = 1
+eks_max_nodes          = 3
+db_name                = "bankingapp"
+db_username            = "admin"
+db_password            = "Faustina2024!"
+db_instance_class      = "db.t3.micro"
